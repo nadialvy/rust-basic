@@ -1,9 +1,8 @@
 fn main() {
-    println!("Hello, world!");
-    println!("halooo");
+    // deklarasi variabel
+    let nama = "Dany";
+    let umur = 5;
+    // println!(nama);
 
-    // komen 1 baris
-    /*
-    komen banyak baris
-    */
+    println!("Nama saya {}, umur saya {}", nama, umur);
 }
