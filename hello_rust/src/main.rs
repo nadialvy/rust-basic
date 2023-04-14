@@ -4,5 +4,6 @@ fn main() {
     let umur = 5;
     // println!(nama);
 
-    println!("Nama saya {}, umur saya {}", nama, umur);
+    // println!("Nama saya {}, umur saya {}", nama, umur);
+    println!("{}, {}", umur, nama);
 }
