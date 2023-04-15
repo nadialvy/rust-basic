@@ -1,9 +1,9 @@
 fn main() {
-    // deklarasi variabel
-    let nama = "Dany";
-    let umur = 5;
-    // println!(nama);
+  let mut msg_number = 1;
+  let msg = "hi!";
+  println!("message number {}: {}", msg_number, msg);
 
-    // println!("Nama saya {}, umur saya {}", nama, umur);
-    println!("{}, {}", umur, nama);
+  msg_number = 2;
+  let msg = "hello!";
+  println!("message number {}: {}", msg_number, msg);
 }
