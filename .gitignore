@@ -1,0 +1,17 @@
+# Rust/Cargo generated files
+/target/
+/cargo.lock
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Build artifacts
+*.o
+*.a
+*.so
+
+# Dependency directories
+/vendor/
