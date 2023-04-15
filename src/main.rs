@@ -1,13 +1,11 @@
 fn main() {
-  let mut msg_number = 1;
-  let msg = "hi!";
-  println!("message number {}: {}", msg_number, msg);
+  // type inference
+  let var1 = "hello";
+  let var2 = 12;
 
-  msg_number = 2;
-  let msg = "hello!";
-  println!("message number {}: {}", msg_number, msg);
+  // manifest typing
+  let var3: i32 = 12;
+  let var4: &str = "hello";
 
-  msg_number = 3;
-  let msg = "hey!";
-  println!("message number {1}: {0}", msg_number, msg);
+  println!("{} {} {} {}", var1, var2, var3, var4);
 }
